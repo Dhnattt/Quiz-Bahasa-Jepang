@@ -1,0 +1,29 @@
+#congratsMessage {
+    font-size: 2.4rem;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
+
+  #end {
+    background-color: (transparent);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+
+  #finalScore {
+    color: white;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
+
+  #finalScore span {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
