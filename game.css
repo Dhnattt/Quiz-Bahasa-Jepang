@@ -38,10 +38,12 @@
 
 .correct {
   background-color: #28a745;
+  transition: background-color 0.5s ease;
 }
 
 .incorrect {
   background-color: #dc3545;
+  transition: background-color 0.5s ease;
 }
 
 /* HUD */
@@ -76,12 +78,13 @@
 }
 
 #progressBarFull {
-  height: 3.4rem;
+  height: 3rem;
   background-color: white;
   width: 0%;
   transition: width 0.5s ease-in-out;
   border: 0.3rem solid black;
   box-sizing: border-box;
+  border-radius: 2rem;
 }
 
 #progressBarFull.increase {
